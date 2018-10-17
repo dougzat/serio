@@ -6,3 +6,5 @@ $ip = getenv ('REMOTE_ADDR ');
 printf ("Bom dia %s",$usuario );
 printf (" Voce esta conectado ao host %s de IP %s",$host ,$ip );
 ?>>
+
+<a href="2.php">bora pvt</a>
