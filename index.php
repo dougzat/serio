@@ -1,10 +1,12 @@
 <?php
-// exemplo de uso da funcao getenv () do PHP
-$usuario = getenv ('USER ');
-$host = getenv ('HOSTNAME ');
-$ip = getenv ('REMOTE_ADDR ');
-printf ("Bom dia %s",$usuario );
-printf (" Voce esta conectado ao host %s de IP %s",$host ,$ip );
-?>>
+// inicia a sessao
+session_start ();
+// atribui valor as variaveis de sessao
+$_SESSION ['cor ']= 'azul ';
+$_SESSION ['tamanho ']= 'medio ';
+$_SESSION ['formato ']= 'circular ';
+print " Feito ";
+//
+?>
 
 <a href="2.php">bora pvt</a>
