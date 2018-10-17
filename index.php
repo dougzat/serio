@@ -7,6 +7,7 @@ $_SESSION ['tamanho ']= 'medio ';
 $_SESSION ['formato ']= 'circular ';
 print " Feito ";
 //
+echo "modifiquei <br>";
 ?>
 
 <a href="2.php">bora pvt</a>
